@@ -54,7 +54,7 @@ let checkUserNumber = (userCurrentNumber) => {
    }
    else{
       errorDiv.classList.add('toggle-error')
-      errorText.innerHTML = `You win !! The Right Number is ${winNumber}`
+      errorText.innerHTML = `Whohoo you are win!! The Right Number is ${winNumber}`
  
       setTimeout(() => {
        errorDiv.classList.remove('toggle-error')
